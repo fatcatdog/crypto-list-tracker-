@@ -32,7 +32,7 @@ class _HomePageState extends State<HomePage> implements CryptoListViewContract {
   Widget build(BuildContext context) {
     return new Scaffold(
         appBar: new AppBar(
-          title: new Text("Crypto App"),
+          title: new Text("Most Popular ICO Products"),
           elevation: defaultTargetPlatform == TargetPlatform.iOS ? 0.0 : 5.0,
         ),
         body: _isLoading
